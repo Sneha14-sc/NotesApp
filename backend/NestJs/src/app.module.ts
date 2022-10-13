@@ -18,8 +18,8 @@ import { NotesService } from './notes/notes.service';
     synchronize: true,
     entities: [Notes],
   }),NotesModule],
-  controllers: [AppController, NotesController],
-  providers: [AppService, NotesService],
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {
 
